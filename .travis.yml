@@ -5,5 +5,7 @@ services:
 before_install:
   - docker build -t david/docker-react -f Dockerfile.dev .
 
+install: travis_wait mvn install
+
 script:
   - docker run david/docker-react npm run test -- --coverage
