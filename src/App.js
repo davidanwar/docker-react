@@ -6,10 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Hello React JS
-        </p>
-        <p>
-          Hello React JS
+          I was change in the feature branch
         </p>
         <a
           className="App-link"
